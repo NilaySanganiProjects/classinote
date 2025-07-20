@@ -1,0 +1,202 @@
+[
+    {
+        "note": "Call client for freelance work",
+        "label": "work"
+    },
+    {
+        "note": "drink water",
+        "label": "todo"
+    },
+    {
+        "note": "eat food",
+        "label": "todo"
+    },
+    {
+        "note": "host people for the party",
+        "label": "todo"
+    },
+    {
+        "note": "play cricket",
+        "label": "todo"
+    },
+    {
+        "note": "Finish client presentation for Monday",
+        "label": "work"
+    },
+    {
+        "note": "Schedule team meeting for project Alpha",
+        "label": "work"
+    },
+    {
+        "note": "Email the client the revised invoice by EOD",
+        "label": "work"
+    },
+    {
+        "note": "Brainstorm ideas for Q3 marketing strategy",
+        "label": "work"
+    },
+    {
+        "note": "Submit the final report to the manager by Friday",
+        "label": "work"
+    },
+    {
+        "note": "Go for a 30-minute walk after dinner",
+        "label": "health"
+    },
+    {
+        "note": "Avoid cheese and sweets for the next two weeks",
+        "label": "health"
+    },
+    {
+        "note": "Book dermatologist appointment for next Monday",
+        "label": "health"
+    },
+    {
+        "note": "Stick to a 10 PM sleep schedule to improve focus",
+        "label": "health"
+    },
+    {
+        "note": "Take vitamin C and iron supplements every morning",
+        "label": "health"
+    },
+    {
+        "note": "Track monthly expenses.",
+        "label": "finance"
+    },
+    {
+        "note": "Check credit card bill due date",
+        "label": "finance"
+    },
+    {
+        "note": "Run for 8 miles",
+        "label": "health"
+    },
+    {
+        "note": "Pay credit card bill before 5th August",
+        "label": "finance"
+    },
+    {
+        "note": "Track monthly expenses in Excel sheet",
+        "label": "finance"
+    },
+    {
+        "note": "Transfer \u20b910,000 to emergency fund",
+        "label": "finance"
+    },
+    {
+        "note": "Call bank to increase debit card limit",
+        "label": "finance"
+    },
+    {
+        "note": "Revisit SIP portfolio performance",
+        "label": "finance"
+    },
+    {
+        "note": "Plan budget for Goa trip under \u20b915,000",
+        "label": "finance"
+    },
+    {
+        "note": "Renew health insurance this month",
+        "label": "finance"
+    },
+    {
+        "note": "Review salary breakup and update tax declarations",
+        "label": "finance"
+    },
+    {
+        "note": "Review salary breakup and update tax declarations",
+        "label": "finance"
+    },
+    {
+        "note": "Check LinkedIn for roles at Microsoft and Google.",
+        "label": "career"
+    },
+    {
+        "note": "Talk to seniors about career paths after BTech",
+        "label": "career"
+    },
+    {
+        "note": "Start portfolio website this weekend",
+        "label": "career"
+    },
+    {
+        "note": "Practice behavioral questions for Amazon internship interview.",
+        "label": "career"
+    },
+    {
+        "note": "Research certification courses in data science.",
+        "label": "career"
+    },
+    {
+        "note": "Reach out to alumni for career advice in AI roles.",
+        "label": "career"
+    },
+    {
+        "note": "Write a blog post on my recent app project.",
+        "label": "career"
+    },
+    {
+        "note": "Update GitHub with completed DSA problems.",
+        "label": "career"
+    },
+    {
+        "note": "Find mentorship programs for early developers.",
+        "label": "career"
+    },
+    {
+        "note": "Maths Homework",
+        "label": "study"
+    },
+    {
+        "note": "science homework",
+        "label": "study"
+    },
+    {
+        "note": "DSA homework",
+        "label": "study"
+    },
+    {
+        "note": "Python homework",
+        "label": "study"
+    },
+    {
+        "note": "App that lets roommates split and track shared bills automatically",
+        "label": "idea"
+    },
+    {
+        "note": "App that lets roommates split and track shared bills automatically",
+        "label": "idea"
+    },
+    {
+        "note": "Gamified habit tracker with accountability partners.",
+        "label": "idea"
+    },
+    {
+        "note": "Smart water bottle that syncs with hydration app.",
+        "label": "idea"
+    },
+    {
+        "note": "AR-based shopping assistant that checks for sustainable options.",
+        "label": "idea"
+    },
+    {
+        "note": "Notebook scanner app that classifies notes by subject using AI.",
+        "label": "idea"
+    },
+    {
+        "note": "Notebook scanner app that classifies notes by subject using AI.",
+        "label": "idea"
+    },
+    {
+        "note": "Notebook scanner app that classifies notes by subject using AI.",
+        "label": "idea"
+    },
+    {
+        "note": "Mental health check-in chatbot with a minimalist UI.",
+        "label": "idea"
+    },
+    {
+        "note": "Eco-friendly packaging business for small online sellers.",
+        "label": "idea"
+    }
+]
