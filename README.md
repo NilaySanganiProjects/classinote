@@ -25,19 +25,20 @@ A full-stack intelligent note-taking app with automatic note classification, fee
 
 ```
 .
-├── api.py                # FastAPI backend (main API server)
-├── classify.py           # CLI note classifier
-├── main.py               # Model (re)training script
-├── view_notes.py         # CLI note viewing/editing
-├── requirements.txt      # Python backend dependencies
-├── categories.json       # List of categories
-├── feedback.json         # User feedback for retraining
-├── vectorizer.pkl        # Saved ML vectorizer
-├── classifier.pkl        # Saved ML classifier
-├── .retrain_marker.json  # Tracks retrain threshold
-├── notes/                # Folder with notes per category (as JSON)
-├── classinote-ui/        # React frontend app
-│   ├── package.json      # Frontend dependencies
+├── backend/
+│   ├── api.py                # FastAPI backend (main API server)
+│   ├── classify.py           # CLI note classifier
+│   ├── main.py               # Model (re)training script
+│   ├── view_notes.py         # CLI note viewing/editing
+│   ├── requirements.txt      # Python backend dependencies
+│   ├── categories.json       # List of categories
+│   ├── feedback.json         # User feedback for retraining
+│   ├── vectorizer.pkl        # Saved ML vectorizer
+│   ├── classifier.pkl        # Saved ML classifier
+│   ├── .retrain_marker.json  # Tracks retrain threshold
+│   └── notes/                # Folder with notes per category (as JSON)
+├── classinote-ui/            # React frontend app
+│   ├── package.json          # Frontend dependencies
 │   ├── src/
 │   │   ├── App.js
 │   │   ├── api.js
@@ -47,6 +48,7 @@ A full-stack intelligent note-taking app with automatic note classification, fee
 │   │       ├── NoteList.js
 │   │       └── EditNoteDialog.js
 │   └── ... (other React files)
+├── README.md
 └── ...
 ```
 
@@ -58,23 +60,33 @@ A full-stack intelligent note-taking app with automatic note classification, fee
 
 **Requirements:** Python 3.8+, pip
 
-1. **Install dependencies:**
+1. **Create and activate a virtual environment (recommended):**
+   ```sh
+   cd backend
+   python -m venv venv
+   # Windows:
+   .\venv\Scripts\activate
+   # Mac/Linux:
+   source venv/bin/activate
+   ```
+
+2. **Install dependencies:**
    ```sh
    pip install -r requirements.txt
    ```
 
-2. **Train the initial model (if not already trained):**
+3. **Train the initial model (if not already trained):**
    ```sh
    python main.py
    ```
 
-3. **Run the API server:**
+4. **Run the API server:**
    ```sh
    uvicorn api:app --reload
    ```
    The API will be available at [http://localhost:8000](http://localhost:8000).
 
-4. **(Optional) Use CLI tools:**
+5. **(Optional) Use CLI tools:**
    - Classify a note:  
      `python classify.py`
    - View/edit notes:  
@@ -110,7 +122,7 @@ A full-stack intelligent note-taking app with automatic note classification, fee
 
 ### 4. CORS Issues
 
-If you get CORS errors, ensure your `api.py` includes:
+If you get CORS errors, ensure your `backend/api.py` includes:
 
 ```python
 from fastapi.middleware.cors import CORSMiddleware
@@ -139,7 +151,7 @@ app.add_middleware(
 
 ---
 
-## Data Files
+## Data Files (in `backend/`)
 
 - **notes/**: Each category has its own JSON file with notes.
 - **categories.json**: List of all categories.
